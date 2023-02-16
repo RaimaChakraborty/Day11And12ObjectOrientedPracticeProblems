@@ -37,7 +37,7 @@ public class StockAccountManagement {
 
         public double totalValue() {
             for (Object stock : stockList) {
-                totalValue += stock.price * stock.NoOfShare;
+            //    totalValue += stock.price * stock.NoOfShare;
             }
             return totalValue;
         }
